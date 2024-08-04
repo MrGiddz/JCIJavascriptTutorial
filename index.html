@@ -1,11 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/script.js"></script>
-    <title>Frist Javascript class | Dataypes</title>
+    <script>
+        // This is a single line comment
+
+
+        /*
+            This is a multi-line comment
+        */
+
+        /** Variables
+         Variables are placeholders for storing data
+         Variables can be created by use the following keywords 
+          * let -> variables created using let cannot be overwritten but can not be recreated using the same name
+          * var -> var is the old way of creating variables in Javascript. Variables created using var can be overwritten and can be recreated using the same name
+          * const -> variables created using const cannot be overwritten and cannot be recreated using the same name
+         */
+
+        let firstname = "variable one";
+        let lastname = "variable";
+
+        firstname = "my name"
+
+        // console.log("firstname = " + firstname);
+        // console.log("lastname = " + lastname);
+
+        var name = "Olamide";
+        var name = "Olamide";
+
+
+        const fruit = "apple"
+        // fruit = "orange"  // this is an invalid expression
+        // const fruit = "orange" // this is an invalid expression
+
+        // console.log(fruit);
+
+
+
+
+
+        // This is the Addition Operator Example
+        let a = 5;
+        let b = 10;
+        let c = 20;
+        let sum = a + b;
+        let sum2 = a + b + c;
+        // console.log("sum = " + sum);
+        // console.log("sum2 = " + sum2);
+
+
+        // Subtraction operator example
+        let diff = b - a;
+        let diff2 = c - diff
+        // console.log("diff = " + diff);
+        // console.log("diff2 = " + diff2);
+
+        // Multiplication operator example
+        let x = 8;
+        let y = 5;
+        let z = 10;
+        let product = x * y;
+        let product2 = x * y * z;
+        // console.log("product = " + product);
+        // console.log("product2 = " + product2);
+
+        //Division operator example
+        let j = 90;
+        let k = 20;
+        let l = 10;
+        let w = 2;
+
+
+        let quotient = j / k;
+        let quotient2 = l / w;
+        // console.log("quotient = " + quotient);
+        // console.log("quotient2 = " + quotient2)
+
+        // Modulus example
+        let aM = 6;
+        let bM = 2;
+        let cM = 29;
+        let dM = 3
+        const remainder = aM % bM;
+        const remainder2 = cM % bM;
+        const remainder3 = cM % dM;
+        // console.log("remainder = " + remainder); 
+        // console.log("remainder2 = " + remainder2);
+        // console.log("remainder3 = " + remainder3);
+
+
+        // Exponentiation example
+        let exp1 = 4
+        let expVal = 3
+        const power = exp1 ** expVal
+        //console.log("power = " + power)
+
+        // Comparison Operator example
+
+        let isAEqualToB = a == b
+        let a2 = a
+        let isA2EqualToA = a2 == a
+
+        //console.log("isAEqualToB = " + isAEqualToB);
+        //console.log("isA2EqualToA = " + isA2EqualToA);
+
+        let isBEqualToA = b == a
+        //console.log("isBEqualToA = " + isBEqualToA);
+
+
+        // Not Equal
+        console.log("5 != 6 = ", 5 != 6) // true
+        console.log("5 != 5 = ", 5 != 5) //false
+
+        // Strict Equal
+        let aEq = 5;
+        let bEq = "5"
+        let cEq = 5;
+        let isStrictEqual = (aEq === cEq); // true
+        let isStrictEqual2 = (aEq === bEq); // false
+
+        // console.log("isStrictEqual = " + isStrictEqual);
+        // console.log("isStrictEqual2 = " + isStrictEqual2);
+
+        // Strict Not Equal
+        console.log("5 !== 5 = ", 5 !== 5) // false
+        console.log("5 !== 5 = ", 5 !== "5") //true
+
+
+
+
+    </script>
+    <title>Introduction to Javascript</title>
 </head>
 
 <body>
